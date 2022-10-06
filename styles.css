@@ -17,6 +17,13 @@ li {
 
 }
 
+.intro-text {
+    width: 100%;
+}
+
+.coffee_machine {
+    width: 200px;
+}
 
 .sketches {
     display: inline-flex;
@@ -53,6 +60,10 @@ li {
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
+}
+
+.persona-content {
+    margin: auto;
 }
 
 .persona {
