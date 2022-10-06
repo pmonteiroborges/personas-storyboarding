@@ -1,0 +1,52 @@
+:root {
+    --img-width: 300px
+}
+
+html {
+    margin: auto;
+}
+
+body {
+    vertical-align: middle;
+    text-align: center;
+}
+
+ol,
+ul {
+    list-style-position: inside;
+}
+
+li {
+    padding-bottom: 1%;
+
+}
+
+.sketches {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sketch-item {
+    padding-bottom: 1%;
+    width: var(--img-width);
+}
+
+.people {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.person {
+    outline: 1px solid black;
+    outline-offset: 10px;
+    width: 25%;
+    text-align: left;
+}
+
+.person-header {
+    text-align: center;
+}
