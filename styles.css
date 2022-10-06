@@ -1,7 +1,3 @@
-:root {
-    --img-width: 300px
-}
-
 html {
     margin: auto;
 }
@@ -21,6 +17,7 @@ li {
 
 }
 
+
 .sketches {
     display: inline-flex;
     justify-content: space-evenly;
@@ -30,7 +27,7 @@ li {
 
 .sketch-item {
     padding-bottom: 1%;
-    width: var(--img-width);
+    width: 300px;
 }
 
 .people {
@@ -49,4 +46,21 @@ li {
 
 .person-header {
     text-align: center;
+}
+
+.personas {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.persona {
+    height: 300px;
+    width: 500px;
+}
+
+.storyboard {
+    height: 300px;
+    width: 600px;
 }
