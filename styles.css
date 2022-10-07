@@ -1,6 +1,8 @@
 html {
     margin: auto;
+    background-color: #F8EDE3;
 }
+
 
 body {
     vertical-align: middle;
@@ -17,12 +19,10 @@ li {
 
 }
 
-.intro-text {
-    width: 100%;
-}
-
 .coffee_machine {
-    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
 }
 
 .sketches {
@@ -72,6 +72,13 @@ li {
 }
 
 .storyboard {
-    height: 300px;
-    width: 600px;
+    height: 400px;
+    width: 800px;
+}
+
+.section {
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    outline-offset: 10px;
 }
